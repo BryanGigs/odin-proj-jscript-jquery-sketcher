@@ -1,0 +1,82 @@
+
+/*--------------------------------------
+	General Elements
+--------------------------------------*/
+
+body {
+	background: #FFF;
+	color: #222;
+	font-family: arial, sans-serif;
+	font-size: small;
+}
+
+a {
+	color: #222;
+	text-decoration: none;
+}
+
+.page-container {
+	width: 642px;
+	margin: auto;
+}
+
+.btn:hover {
+	border: 1px solid #BDBDBD;
+}
+
+.btn-container {
+	width: 210px;
+	margin: auto;
+}
+
+.btn {
+	font-weight: bold;
+	color: #424242;
+	background: #EEEEEE; /*#d9d9d9 #4387fd #4285f4 #f2f2f2 #e4e4e4*/
+	padding: 7px 12px 8px 12px;
+	margin: 4px;
+	border: 1px solid #E0E0E0;
+	border-radius: 2px;
+	opacity: 1.0;
+}
+
+.btn:focus, .btn:active, .btn.active, .btn:focus:active {
+  background-image: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.btn:active {
+	background: #E0E0E0;
+	border: 1px solid #BDBDBD;
+}
+
+.btn:focus {
+	font-weight: bold;
+	color: #424242;
+	background: #E0E0E0; /*#d9d9d9 #4387fd #4285f4 #f2f2f2 #e4e4e4*/
+	padding: 7px 12px 8px 12px;
+	margin: 4px;
+	border: 1px solid #BDBDBD;
+	border-radius: 2px;
+	opacity: 1.0;
+}
+
+.grid-container {
+	margin: auto;
+	overflow: auto;
+	border: 1px solid #222;
+}
+
+.grid-cell {
+	width: 158px;
+	height: 158px;
+	border: 1px solid #222;
+	float: left;
+}
+
+.mark-red {
+	background: #F44336;
+}
+
